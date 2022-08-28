@@ -1,0 +1,21 @@
+>>> print("Hello",format('+','->10'),"World")
+Hello ---------+ World
+>>> print("Hello",format('+','-<10'),"World")
+Hello +--------- World
+>>> format("Hello", "^30")
+'            Hello             '
+>>> format('Hello', '^30')
+'            Hello             '
+>>> format("Hello", "<30")
+'Hello                         '
+>>> print("Hello\tWorld")
+Hello	World
+>>> print("Hello\nWorld")
+Hello
+World
+>>> print("Hello\fWorld")
+Hello
+     World
+>>> print("Hello\aWorld")
+HelloWorld
+

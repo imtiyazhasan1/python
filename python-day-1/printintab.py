@@ -12,3 +12,6 @@ sum = float(num1) + float(num2)
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
 ### another way
 print('The sum of ' + num1 + ' and {1} is {2}'.format(num1, num2, sum))
+#####Print in Tab
+
+print ('The sum of \t {0} and \t {1} is {2}'.format(num2, num1, sum))
